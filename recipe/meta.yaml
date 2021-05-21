@@ -40,10 +40,13 @@ test:
     - pip
 
 about:
-  home: https://www.wolfram.com/
+  home: https://pypi.org/project/wolframclient/
   summary: A Python library with various tools to interact with the Wolfram Language and the Wolfram Cloud.
   license: MIT
   license_file: LICENSE
+  dev_url: https://github.com/WolframResearch/WolframClientForPython/
+  doc_url: https://wolfr.am/wolframclientdoc
+  doc_source_url: https://github.com/WolframResearch/WolframClientForPython/tree/master/docs/
 
 extra:
   recipe-maintainers:
