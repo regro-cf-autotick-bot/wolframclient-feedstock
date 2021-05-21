@@ -1,5 +1,5 @@
 {% set name = "wolframclient" %}
-{% set version = "1.1.4" %}
+{% set version = "1.1.6" %}
 
 
 package:
@@ -8,7 +8,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/wolframclient-{{ version }}.tar.gz
-  sha256: 839c240995564a27235c952a6af4e74fdbcd63fe8f8bfb2b3894ff63aa066f8d
+  sha256: a849aca43b77be0c8392b9a05dbff7ab58fcfc0194c06193341150048e1b3a98
 
 build:
   number: 0
@@ -40,10 +40,13 @@ test:
     - pip
 
 about:
-  home: https://www.wolfram.com/
+  home: https://pypi.org/project/wolframclient/
   summary: A Python library with various tools to interact with the Wolfram Language and the Wolfram Cloud.
   license: MIT
   license_file: LICENSE
+  dev_url: https://github.com/WolframResearch/WolframClientForPython/
+  doc_url: https://wolfr.am/wolframclientdoc
+  doc_source_url: https://github.com/WolframResearch/WolframClientForPython/tree/master/docs/
 
 extra:
   recipe-maintainers:
