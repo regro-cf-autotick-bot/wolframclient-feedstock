@@ -1,5 +1,5 @@
 {% set name = "wolframclient" %}
-{% set version = "1.1.6" %}
+{% set version = "1.1.7" %}
 
 
 package:
@@ -8,7 +8,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/wolframclient-{{ version }}.tar.gz
-  sha256: a849aca43b77be0c8392b9a05dbff7ab58fcfc0194c06193341150048e1b3a98
+  sha256: 327feb03d6200255268aa57395c9f0984b0f4d3711f797ea97e4afd8f38d7d21
 
 build:
   number: 0
