@@ -1,13 +1,17 @@
 About wolframclient
 ===================
 
-Home: https://www.wolfram.com/
+Home: https://pypi.org/project/wolframclient/
 
 Package license: MIT
 
 Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/wolframclient-feedstock/blob/master/LICENSE.txt)
 
 Summary: A Python library with various tools to interact with the Wolfram Language and the Wolfram Cloud.
+
+Development: https://github.com/WolframResearch/WolframClientForPython/
+
+Documentation: https://wolfr.am/wolframclientdoc
 
 Current build status
 ====================
